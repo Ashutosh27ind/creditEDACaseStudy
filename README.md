@@ -24,12 +24,12 @@ The data given below contains the information about the loan application at the 
 
 When a client applies for a loan, there are four types of decisions that could be taken by the client/company):
 
-**1. Approved:** The Company has approved loan Application
-**2. Cancelled:** The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan or in some cases due to a higher risk of the client he received worse pricing which he did not want.
-**3. Refused:** The company had rejected the loan (because the client does not meet their requirements etc.).
-**4. Unused offer:**  Loan has been cancelled by the client but on different stages of the process.
+**1. Approved:** The Company has approved loan Application.  
+**2. Cancelled:** The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan or in some cases due to a higher risk of the client he received worse pricing which he did not want.  
+**3. Refused:** The company had rejected the loan (because the client does not meet their requirements etc.).  
+**4. Unused offer:**  Loan has been cancelled by the client but on different stages of the process.  
 
-In this case study, we will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
+In this case study, we will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.  
 
 
 ## Business Objectives
@@ -41,7 +41,7 @@ In other words, the company wants to understand the driving factors (or driver v
 ## Data Understanding
 This dataset has 3 files as explained below: 
 
-* * 1. 'application_data.csv'* * contains all the information of the client at the time of application.
+* *1.'application_data.csv'* * contains all the information of the client at the time of application.
 The data is about whether a client has payment difficulties.
 
 * *2. 'previous_application.csv'* * contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
